@@ -1,0 +1,2 @@
+release: ./node_modules/typeorm/cli.js migration:run
+web: npm run start:prod

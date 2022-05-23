@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-alert": "off",
+    "no-console": "off",
+    "no-debugger": "off",
+    "no-shadow": "off",
+    "jsx-quotes": ["error", "prefer-single"],
+    "max-len": ["error", 80, { "ignoreTemplateLiterals": true }],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "semi": ["error", "always"],
+    "prefer-promise-reject-errors": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-fragments": "off",
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }]
+  }
+}

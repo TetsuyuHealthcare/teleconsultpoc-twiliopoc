@@ -1,0 +1,20 @@
+.waiting {
+  width: 400px;
+  padding: 40px 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .1);
+
+  .content {
+    margin-bottom: 30px;
+
+    .title {
+      font-weight: normal;
+      margin-bottom: 5px;
+    }
+
+    .sub-title {
+      font-weight: normal;
+      margin-top: 0 !important;
+    }
+  }
+}

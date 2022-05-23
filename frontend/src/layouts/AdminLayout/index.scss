@@ -1,0 +1,37 @@
+.admin-layout {
+  .admin-layout__sider {
+    overflow: auto;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+  }
+
+  .admin-layout__logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .admin-layout__content {
+    padding-left: 200px;
+    min-height: 100vh;
+  }
+
+  .admin-layout__header {
+    width: calc(100% - 200px);
+    padding: 0;
+    background: white;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .admin-layout__main-content {
+    margin: 76px 10px 10px;
+  }
+
+  .admin-layout__main-content-wrapper {
+    background: white;
+    min-height: 100vh;
+    padding: 24px;
+  }
+}

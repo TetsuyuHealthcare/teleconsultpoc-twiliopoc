@@ -1,0 +1,19 @@
+.participant {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: relative;
+
+  .indentity {
+    color: #1890ff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    background: white;
+    padding: 8px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    position: absolute;
+  }
+}

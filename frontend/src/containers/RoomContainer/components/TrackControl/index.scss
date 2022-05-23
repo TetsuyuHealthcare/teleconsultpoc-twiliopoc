@@ -1,0 +1,17 @@
+.track-control {
+  position: absolute;
+  left: 10px;
+  z-index: 1;
+
+  &.video {
+    top: 54px;
+  }
+
+  &.audio {
+    top: 104px;
+  }
+
+  button.ant-btn {
+    border: none;
+  }
+}

@@ -1,0 +1,25 @@
+.track {
+  width: 100%;
+  height: auto;
+
+  &.video {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #000000;
+    border-radius: 8px;
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+
+  &.audio {
+    width: 100%;
+    height: auto;
+    background: #000000;
+    border-radius: 8px;
+  }
+}

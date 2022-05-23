@@ -1,0 +1,20 @@
+.admin-page {
+  .ant-breadcrumb {
+    margin-bottom: 16px;
+  }
+
+  .ant-page-header {
+    padding: 0 0 16px;
+  }
+
+  .ant-page-header-heading-title {
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  .ant-table-thead > tr > th {
+    color: #1890ff;
+    background: #e6f7ff;
+    border: none;
+  }
+}

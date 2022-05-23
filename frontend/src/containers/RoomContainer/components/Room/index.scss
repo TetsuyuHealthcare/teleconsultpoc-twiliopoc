@@ -1,0 +1,90 @@
+.room {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f3f4f5;
+  width: 100%;
+  min-height: 100vh;
+
+  .content {
+    width: 100%;
+    padding-bottom: 75px;
+
+    .videos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      overflow-y: scroll;
+
+      .item {
+        width: 31.5%;
+        height: auto;
+        padding: 10px;
+      }
+    }
+
+    &.sharing {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .screens {
+        flex: 0 82%;
+        height: calc(100vh - 80px);
+        padding: 10px 20px 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: scroll;
+
+        .track {
+          background: transparent !important;
+
+          .track-control {
+            width: 30px;
+            height: 30px;
+            min-width: 30px;
+            font-size: 15px;
+
+            &.audio {
+              top: 94px
+            }
+          }
+
+          video {
+            max-height: calc(100vh - 120px) !important;
+          }
+        }
+      }
+
+      .videos {
+        flex: 1;
+        height: calc(100vh - 80px);
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .item {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 -4px 16px 0 rgba(0, 0, 0, 0.1);
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
